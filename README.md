@@ -1,6 +1,11 @@
 # Recursive-PDF-Compressor
 A Python script to recursively comperes PDFs in a nested directory. 
 
+## Requirements
+- Python 3.x
+- PyPDF2
+- tqdm
+
 ## Usage
 1. Clone the repository:
     ```bash
@@ -25,7 +30,4 @@ A Python script to recursively comperes PDFs in a nested directory.
 
 5. The compressed PDF files will be saved in a separate directory named `input_folder_name_compressed`, preserving the original folder structure.
 
-## Requirements
-- Python 3.x
-- PyPDF2
-- tqdm
+
